@@ -3,7 +3,7 @@ import cors from "cors";
 const app = express();
 app.use(
   cors({
-    origin: ["https://contact-management-system-three.vercel.app/"],
+    origin: ["https://contact-management-system-three.vercel.app"],
     credentials: true,
   })
 );
