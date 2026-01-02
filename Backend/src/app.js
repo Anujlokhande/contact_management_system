@@ -3,9 +3,7 @@ import cors from "cors";
 const app = express();
 app.use(
   cors({
-    origin: [
-      "https://contact-management-system-64msf9017-anujlokhandes-projects.vercel.app/",
-    ],
+    origin: ["https://contact-management-system-three.vercel.app/"],
     credentials: true,
   })
 );
